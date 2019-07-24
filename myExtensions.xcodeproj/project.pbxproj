@@ -23,6 +23,7 @@
 		E553EB66228BF08E000DCDC1 /* uiimage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E553EB65228BF08E000DCDC1 /* uiimage.swift */; };
 		E564BBDF22BB83DE003459EB /* HandleCameraOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E564BBDE22BB83DE003459EB /* HandleCameraOrientation.swift */; };
 		E5A174992293D18E00205F71 /* MyAudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A174982293D18E00205F71 /* MyAudioPlayer.swift */; };
+		E5C9CAA322E837000070702C /* cgRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C9CAA222E837000070702C /* cgRect.swift */; };
 		E5EF09C2228A85D40050B139 /* scnvector3.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EF09C1228A85D40050B139 /* scnvector3.swift */; };
 		E5F5224B22A783EF00B26631 /* Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F5224A22A783EF00B26631 /* Random.swift */; };
 		E5F5224E22A7964B00B26631 /* cgVector.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F5224D22A7964B00B26631 /* cgVector.swift */; };
@@ -47,6 +48,7 @@
 		E553EB65228BF08E000DCDC1 /* uiimage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uiimage.swift; sourceTree = "<group>"; };
 		E564BBDE22BB83DE003459EB /* HandleCameraOrientation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandleCameraOrientation.swift; sourceTree = "<group>"; };
 		E5A174982293D18E00205F71 /* MyAudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAudioPlayer.swift; sourceTree = "<group>"; };
+		E5C9CAA222E837000070702C /* cgRect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cgRect.swift; sourceTree = "<group>"; };
 		E5EF09C1228A85D40050B139 /* scnvector3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scnvector3.swift; sourceTree = "<group>"; };
 		E5F5224A22A783EF00B26631 /* Random.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Random.swift; sourceTree = "<group>"; };
 		E5F5224D22A7964B00B26631 /* cgVector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cgVector.swift; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 				E553EB60228BD2FE000DCDC1 /* scnnode.swift */,
 				E553EB65228BF08E000DCDC1 /* uiimage.swift */,
 				E527EDF622D6FACD00342909 /* string.swift */,
+				E5C9CAA222E837000070702C /* cgRect.swift */,
 			);
 			path = extension;
 			sourceTree = "<group>";
@@ -242,6 +245,7 @@
 				E553EB66228BF08E000DCDC1 /* uiimage.swift in Sources */,
 				E51BB079228547BC0004A874 /* extensions.swift in Sources */,
 				E527EDF722D6FACD00342909 /* string.swift in Sources */,
+				E5C9CAA322E837000070702C /* cgRect.swift in Sources */,
 				E5F5224B22A783EF00B26631 /* Random.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

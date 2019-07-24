@@ -10,6 +10,9 @@ import Foundation
 import SceneKit
 
 public extension SCNVector4{
+    var zeros:SCNVector4{
+        get{return SCNVector4(0, 0, 0, 0)}
+    }
     ///配列から初期化
     init(_ aVec:[Float]){
         self.init()

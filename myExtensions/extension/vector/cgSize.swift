@@ -27,3 +27,21 @@ public func /(l:CGSize,r:Float)->CGSize{
 public func /(l:CGSize,r:CGFloat)->CGSize{
     return CGSize(width: l.width/r, height: l.height/r)
 }
+public func /(l:CGSize,r:Double)->CGSize{
+    return CGSize(width: l.width/CGFloat(r), height: l.height/CGFloat(r))
+}
+public func /(l:CGSize,r:Int)->CGSize{
+    return CGSize(width: l.width/CGFloat(r), height: l.height/CGFloat(r))
+}
+public func *(l:CGSize,r:Float)->CGSize{
+    return CGSize(width: l.width*CGFloat(r), height: l.height*CGFloat(r))
+}
+public func *(l:CGSize,r:CGFloat)->CGSize{
+    return CGSize(width: l.width*CGFloat(r), height: l.height*CGFloat(r))
+}
+public func *(l:CGSize,r:Double)->CGSize{
+    return CGSize(width: l.width*CGFloat(r), height: l.height*CGFloat(r))
+}
+public func *(l:CGSize,r:Int)->CGSize{
+    return CGSize(width: l.width*CGFloat(r), height: l.height*CGFloat(r))
+}
