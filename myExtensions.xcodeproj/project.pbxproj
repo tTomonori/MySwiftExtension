@@ -23,6 +23,7 @@
 		E553EB66228BF08E000DCDC1 /* uiimage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E553EB65228BF08E000DCDC1 /* uiimage.swift */; };
 		E564BBDF22BB83DE003459EB /* HandleCameraOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E564BBDE22BB83DE003459EB /* HandleCameraOrientation.swift */; };
 		E5A174992293D18E00205F71 /* MyAudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A174982293D18E00205F71 /* MyAudioPlayer.swift */; };
+		E5C0C1FF22EAC3250069D042 /* skspritenode.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C0C1FE22EAC3250069D042 /* skspritenode.swift */; };
 		E5C9CAA322E837000070702C /* cgRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C9CAA222E837000070702C /* cgRect.swift */; };
 		E5EF09C2228A85D40050B139 /* scnvector3.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EF09C1228A85D40050B139 /* scnvector3.swift */; };
 		E5F5224B22A783EF00B26631 /* Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F5224A22A783EF00B26631 /* Random.swift */; };
@@ -48,6 +49,7 @@
 		E553EB65228BF08E000DCDC1 /* uiimage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uiimage.swift; sourceTree = "<group>"; };
 		E564BBDE22BB83DE003459EB /* HandleCameraOrientation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandleCameraOrientation.swift; sourceTree = "<group>"; };
 		E5A174982293D18E00205F71 /* MyAudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAudioPlayer.swift; sourceTree = "<group>"; };
+		E5C0C1FE22EAC3250069D042 /* skspritenode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = skspritenode.swift; sourceTree = "<group>"; };
 		E5C9CAA222E837000070702C /* cgRect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cgRect.swift; sourceTree = "<group>"; };
 		E5EF09C1228A85D40050B139 /* scnvector3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scnvector3.swift; sourceTree = "<group>"; };
 		E5F5224A22A783EF00B26631 /* Random.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Random.swift; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 		E553EB5B228BCC01000DCDC1 /* extension */ = {
 			isa = PBXGroup;
 			children = (
+				E5C0C1FD22EAC30E0069D042 /* sk */,
 				E564BBB922BB6E8F003459EB /* view */,
 				E5F5224C22A7963600B26631 /* vector */,
 				E553EB5C228BCC18000DCDC1 /* scnmatrix4.swift */,
@@ -135,6 +138,14 @@
 				E553EB59228BCBF0000DCDC1 /* arscnview.swift */,
 			);
 			path = view;
+			sourceTree = "<group>";
+		};
+		E5C0C1FD22EAC30E0069D042 /* sk */ = {
+			isa = PBXGroup;
+			children = (
+				E5C0C1FE22EAC3250069D042 /* skspritenode.swift */,
+			);
+			path = sk;
 			sourceTree = "<group>";
 		};
 		E5F5224C22A7963600B26631 /* vector */ = {
@@ -236,6 +247,7 @@
 				E5237012228E6B2600B11A37 /* uiview.swift in Sources */,
 				E50805E022D5AC1C00C8A865 /* scnvector4.swift in Sources */,
 				E5EF09C2228A85D40050B139 /* scnvector3.swift in Sources */,
+				E5C0C1FF22EAC3250069D042 /* skspritenode.swift in Sources */,
 				E553EB61228BD2FE000DCDC1 /* scnnode.swift in Sources */,
 				E51BB04B228519350004A874 /* calculation.swift in Sources */,
 				E502180622C20A1500669406 /* cgSize.swift in Sources */,

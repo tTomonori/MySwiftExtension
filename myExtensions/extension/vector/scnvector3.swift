@@ -78,7 +78,11 @@ public extension SCNVector3{
     }
     ///引数の座標までの距離
     func distance(_ aVec:SCNVector3)->Float{
-        return sqrt((x-aVec.x)^2+(y-aVec.y)^2)
+        return sqrt((x-aVec.x)^2+(y-aVec.y)^2+(z-aVec.z)^2)
+    }
+    ///z軸を削る
+    func to2D()->CGVector{
+        return CGVector(dx: CGFloat(self.x), dy: CGFloat(self.y))
     }
 }
 

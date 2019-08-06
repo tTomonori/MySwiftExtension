@@ -63,4 +63,22 @@ public extension CGVector{
             return CGVector(dx: self.dx/tLength, dy: self.dy/tLength)
         }
     }
+    //CGPointに変換
+    func toPoint()->CGPoint{
+        return CGPoint(x: dx, y: dy)
+    }
+    //CGSizeに変換
+    func toSize()->CGSize{
+        return CGSize(width: dx, height: dy)
+    }
+}
+
+public func *(l:Float,r:CGVector)->CGVector{
+    return CGVector(dx: CGFloat(l)*r.dx, dy: CGFloat(l)*r.dy)
+}
+public func *(l:CGFloat,r:CGVector)->CGVector{
+    return CGVector(dx: l*r.dx, dy: l*r.dy)
+}
+public func *(l:Double,r:CGVector)->CGVector{
+    return CGVector(dx: CGFloat(l)*r.dx, dy: CGFloat(l)*r.dy)
 }

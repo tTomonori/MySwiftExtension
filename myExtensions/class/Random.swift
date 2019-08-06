@@ -17,6 +17,10 @@ open class Random{
     static public func randomCg()->CGFloat{
         return CGFloat(arc4random_uniform(100))/100.0
     }
+    ///0~1未満の値をランダムに返す
+    static public func rand()->Float{
+        return Float(arc4random_uniform(999))/1000.0
+    }
     ///指定した範囲内の値をランダムに返す
     static public func random(_ min:Float,_ max:Float)->Float{
         return min+(max-min)*random()
@@ -24,6 +28,10 @@ open class Random{
     ///指定した範囲内の値をランダムに返す
     static public func randomCg(_ min:CGFloat,_ max:CGFloat)->CGFloat{
         return min+(max-min)*randomCg()
+    }
+    ///指定した範囲内の値をランダムに返す
+    static public func randomIndex(_ min:Int,_ max:Int)->Int{
+        return min+Int((max-min)*rand())
     }
     
     static private var mCount:Int=0

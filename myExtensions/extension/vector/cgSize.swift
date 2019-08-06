@@ -20,6 +20,18 @@ public extension CGSize{
         height=CGFloat(aVec[1])
     }
 }
+public func +(l:CGSize,r:CGSize)->CGSize{
+    return CGSize(width: l.width+r.width, height: l.height+r.height)
+}
+public func -(l:CGSize,r:CGSize)->CGSize{
+    return CGSize(width: l.width-r.width, height: l.height-r.height)
+}
+public func *(l:CGSize,r:CGSize)->CGSize{
+    return CGSize(width: l.width*r.width, height: l.height*r.height)
+}
+public func /(l:CGSize,r:CGSize)->CGSize{
+    return CGSize(width: l.width/r.width, height: l.height/r.height)
+}
 
 public func /(l:CGSize,r:Float)->CGSize{
     return CGSize(width: l.width/CGFloat(r), height: l.height/CGFloat(r))
